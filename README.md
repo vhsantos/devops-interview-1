@@ -4,7 +4,7 @@ This is a basic repository with Django 2.2 tutorial polls application (taken str
 
 ## DevOps Candidates
 
-This app will be used as a base for work for your next test (#2) and we'll discuss and evaluate both tests during your online technical interview. Now, we have a few different tasks for you based on this diagram:
+This app will be used as a base for your next test (#2) and we'll discuss and evaluate both tests during your online technical interview. Now, we have a few different tasks for you based on this diagram:
 
 ![Logo](devops-test-1-diagram.png)
 
@@ -12,7 +12,7 @@ This app will be used as a base for work for your next test (#2) and we'll discu
 1. Improve the Dockerfile to create a image of **Django pool application**.
 1. Write an example set of manifests to deploy this poll app with 03 replicas, a postgresql database and a nginx frontend considering Kubernetes 1.20.x.
 1. The deployment should automatizate tasks like creating and populating of database.
-1. Write some brief documentation on how we might launch this app in KIND or Minikube using your manifests.
+1. Write some brief documentation on how we might deploy this app in KIND or Minikube using your manifests.
 1. Find and fix at least one thing in code does not conform to the [12-factor app model](https://12factor.net/)
 1. Create a list of any questions that you would have for the engineering team
 
